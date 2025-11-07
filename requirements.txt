@@ -1,0 +1,15 @@
+streamlit
+google-generativeai
+protobuf
+pydantic
+typing-extensions
+pyasn1
+pyasn1-modules
+rsa
+cachetools
+requests
+httplib2
+google-auth
+google-auth-httplib2
+google-api-python-client
+tqdm

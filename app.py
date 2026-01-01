@@ -59,6 +59,7 @@ def initialize_chat_session(_model):
     Avoid giving investment or legal advice unless explicitly asked.
     Be supportive, professional, and focus on providing actionable guidance.
     Keep responses conversational but informative.
+    Use simple words not complex so that an average user understand it.
     """
     
     chat_session = _model.start_chat(

@@ -43,7 +43,7 @@ def load_model():
         api_key = st.secrets["GEMINI_API_KEY"]
         
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel("gemini-3.0-flash")
+        model = genai.GenerativeModel("gemini-3-flash")
         return model
     except Exception as e:
         st.error(f"❌ Error loading model: {e}")
